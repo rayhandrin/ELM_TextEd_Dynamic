@@ -52,9 +52,9 @@ Beberapa fitur utama pada text editor yang akan dan tengah dikembangkan di antar
 
 ### KONTRIBUTOR
 Kelas 1A - D3 Teknik Informatika
-1. Adilla R Pradana (211511002)
+1. Adilla Rachmawati Pradana (211511002)
 2. Aldrin Rayhan Putra (211511003)
 3. Devina Lusiana (211511011)
 4. M. Fatur Maulidan Azzahra (211511020)
-
+5. Rofi Fauzan Al Habieb (211511029) 
 Dimanajeri oleh Ferry Feirizal, BSCS
