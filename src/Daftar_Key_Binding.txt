@@ -1,0 +1,68 @@
+Note : (Kiri) decimal/(Kanan) hexadecimal
+
+# TANPA AWALAN
+CTRL + A = 1/1
+CTRL + B = 2/2
+CTRL + C = 3/3 -> Copy
+CTRL + D = 4/4
+CTRL + E = 5/5
+CTRL + F = 6/6
+CTRL + G = 7/7
+CTRL + H = 8/8 (BACKSPACE)
+CTRL + I = 9/9 (TAB)
+CTRL + J = 10/a
+CTRL + K = 11/b
+CTRL + L = 12/c
+CTRL + M = 13/d (ENTER)
+CTRL + N = 14/e
+CTRL + O = 15/f -> Open
+CTRL + P = 16/10 
+CTRL + Q = 17/11
+CTRL + R = 18/12 -> Replace
+CTRL + S = 19/13 -> Save
+CTRL + T = 20/14
+CTRL + U = 21/15
+CTRL + V = 22/16 -> Paste
+CTRL + W = 23/17 -> Close (Text Editor)
+CTRL + X = 24/18 -> Cut
+CTRL + Y = 25/19
+CTRL + Z = 26/1a
+CTRL + [ = 27/1b (ESCAPE)
+CTRL + \ = 28/1c
+CTRL + ] = 29/1d
+
+# AWALAN 0 YAA :)
+CTRL + Home         = 0 (119)
+CTRL + End          = 0 (117)
+CTRL + PgUp         = 0 (132)
+CTRL + PgDown       = 0 (118)
+Home                = 0 (71)   -> Beginning of text
+End                 = 0 (79)   -> End of text
+PgUp                = 0 (73)   -> Beginning of line
+PgDown              = 0 (81)   -> End of line
+ALT + Kursor atas   = 0 (152)  -> Block character to the upper
+ALT + Kursor bawah  = 0 (160)  -> Block character to the lower
+ALT + Kursor kanan  = 0 (157)  -> Block character to the right
+ALT + Kursor kiri   = 0 (155)  -> Block character to the left
+
+# AWALAN -32 (Compiler MinGW64 - VS Code)
+Kursor Atas         = -32 (72) -> Previous line
+Kursor Bawah        = -32 (80) -> Next line
+Kursor Kanan        = -32 (77) -> Previous character
+Kursor Kiri         = -32 (75) -> Next character
+CTRL + Kursor Atas  = -32 (-115)
+CTRL + Kursor Bawah = -32 (-111)
+CTRL + Kursor Kanan = -32 (116)
+CTRL + Kursor Kiri  = -32 (115)
+Delete              = -32 (83)
+
+# AWALAN 224 (Compiler DevC++) - Pake yang ini
+Kursor Atas         = 224 (72) -> Previous line
+Kursor Bawah        = 224 (80) -> Next line
+Kursor Kanan        = 224 (77) -> Previous character
+Kursor Kiri         = 224 (75) -> Next character
+CTRL + Kursor Atas  = 224 (141)
+CTRL + Kursor Bawah = 224 (145)
+CTRL + Kursor Kanan = 224 (116)
+CTRL + Kursor Kiri  = 224 (115)
+Delete              = 224 (83)  
