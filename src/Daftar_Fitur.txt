@@ -1,0 +1,59 @@
+PROBLEM #1
+    Input karakter pada awal list -> insert_first
+        - Standard Input (Alfanumerik & Simbol)
+            abcdefghijklmnopqrstuvwxyz
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ
+            `1234567890-=[]\;',./
+            ~!@#$%^&*()_+{}|:"<>?
+        
+        - Nonstandard Input
+            Backspace
+            Delete
+            Keyboard Cursor (up, down, left, right)
+            Esc
+            Enter
+            Space
+            Tab
+
+    Input karakter pada tengah list -> insert_after
+        - Standard Input (Alfanumerik & Simbol)
+            abcdefghijklmnopqrstuvwxyz
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ
+            `1234567890-=[]\;',./
+            ~!@#$%^&*()_+{}|:"<>?
+        
+        - Nonstandard Input
+            Backspace
+            Delete
+            Keyboard Cursor (up, down, left, right)
+            Esc
+            Enter
+            Space
+            Tab
+
+    Input karakter pada akhir list -> insert_last
+        - Standard Input (Alfanumerik & Simbol)
+            abcdefghijklmnopqrstuvwxyz
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ
+            `1234567890-=[]\;',./
+            ~!@#$%^&*()_+{}|:"<>?
+        
+        - Nonstandard Input
+            Backspace
+            Delete
+            Keyboard Cursor (up, down, left, right)
+            Esc
+            Enter
+            Space
+            Tab
+
+PROBLEM #2
+    Hapus karakter pada awal list
+        - Backspace -> delete_first
+        - Delete    -> delete_after
+    Hapus karakter pada tengah list
+        - Backspace -> delete_before
+        - Delete    -> delete_after
+    Hapus karakter pada akhir list
+        - Backspace -> delete_last
+        - Delete    -> delete_after
