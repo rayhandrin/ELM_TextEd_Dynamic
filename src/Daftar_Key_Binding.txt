@@ -31,7 +31,7 @@ CTRL + [ = 27/1b (ESCAPE)
 CTRL + \ = 28/1c
 CTRL + ] = 29/1d
 
-# AWALAN 0 YAA :)
+# AWALAN 0
 CTRL + Home         = 0 (119)
 CTRL + End          = 0 (117)
 CTRL + PgUp         = 0 (132)
