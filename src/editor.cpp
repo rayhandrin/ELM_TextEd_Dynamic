@@ -1029,6 +1029,8 @@ void menu_file(list &L, list &Lc, addr P, char name_file[])
     {
         clear();
         set_csr_pos(1, 0);
+        printli(L);
+        set_csr_pos(1, 0);
 
         printf("\xDA\xC4\xC4\xC4\xC4\xC4\xC4\xC4\xC4\xC4\xC4\xC4\xBF\n");
         printf("\xB3 ");
@@ -1108,6 +1110,8 @@ void menu_edit(list &L, list &Lc, char replace_text[], addr P)
     while (keyPressed != 13)
     {
         clear();
+        set_csr_pos(1, 0);
+        printli(L);
         set_csr_pos(1, 0);
 
         printf("      \xDA\xC4\xC4\xC4\xC4\xC4\xC4\xC4\xC4\xC4\xC4\xC4\xBF\n");
