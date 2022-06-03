@@ -995,7 +995,8 @@ void help()
     myFile.open("help.txt");
     string line;
     char buffer;
-
+    
+    set_csr_pos(1, 0);
     while (getline(myFile, line))
     {
         cout << line << endl;
