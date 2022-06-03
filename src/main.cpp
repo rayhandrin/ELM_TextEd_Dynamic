@@ -104,16 +104,21 @@ int main()
 
         if (is_backspace_in(I) == true)
         {
-            if (middle == true)
-            {
-                delp(&L, P);
-            }
-            else
-            {
-                della(&L);
-            }
-            cp.X -= 1;
-
+        	if(P != Nil){
+        		if (middle == true)
+	            {
+					P = prev(P);
+					delp(&L, next(P)); 
+					cp.X -= 1;
+				}
+	            else
+	            {
+	                della(&L);
+	                P = last(L);
+	                cp.X -= 1;
+	            }
+			}   
+            
             clear();
             cout << endl;
             printli(L);
@@ -187,6 +192,7 @@ int main()
                 if (is_enlist(L, next(P)) == true)
                 {
                     cp.X = ttlnode_l(L, P);
+                    middle = false;
                     break;
                 }
 
@@ -219,6 +225,8 @@ int main()
             case CSR_LEFT_KEY:
                 if (is_bglist(L, P) == true)
                 {
+                    cp.X = 1;
+                	P = first(L);
                     break;
                 }
 
